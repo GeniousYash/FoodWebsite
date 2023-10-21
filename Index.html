@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie's Zone</title>
+    <link rel="stylesheet" href="./styles/foodCard.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+<body>
+    <div class="menu">
+        <nav>
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <ion-icon name="grid-outline"></ion-icon>
+          </label>
+  
+          <label class="logo">Foodie's Zone</label>
+  
+          <ul>
+            <li><a href="#hero-section" class="active">Home</a></li>
+            <li><a href="./veg.html">Menu</a></li>
+            <li><a href="./payment.html">Payment</a></li>
+          </ul>
+        </nav>
+    </div>
+
+    <div class="banner">
+        <img src="https://image.slidesdocs.com/responsive-images/background/food-rice-nutrition-chinese-bridge-powerpoint-background_fad1ea5696__960_540.jpg" alt="banner image">
+    </div>
+
+
+    
+
+    <section id="food">
+      <h2>Our Menu Card</h2>
+      <div class="food-container container">
+          <div class="food-type fruit">
+              <div class="img-container">
+                  <img src="https://thumbs.dreamstime.com/b/assorted-indian-foods-pepper-chicken-gravy-chicken-masala-nonveg-thali-wooden-background-dishes-appetizers-indian-223922010.jpg" alt="fruit">
+                  <div class="img-content">
+                      <h3>Non-Veg</h3>
+                      <a href="./veg.html" class="btn btn-primary" id="nonVegLearnMore">Learn More</a>
+                  </div>
+              </div>
+          </div>
+          <div class="food-type veg">
+              <div class="img-container">
+                  <img src="https://media.istockphoto.com/id/1158578874/photo/indian-hindu-veg-thali-food-platter-selective-focus.jpg?s=612x612&w=0&k=20&c=ZHAsJ9sJJoeAmwD3iU1Oo2YSKn_BG6JoE7zuG1frxwg=" alt="veg">
+                  <div class="img-content">
+                      <h3>Veg</h3>
+                      <a href="./veg.html" class="btn btn-primary" id="vegLearnMore">Learn More</a>
+                  </div>
+              </div>
+          </div>
+          <div class="food-type grain">
+              <div class="img-container">
+                  <img src="https://beachbarbums.com/wp-content/uploads/2013/07/mojito-wallpaper-hd.jpg" alt="grain">
+                  <div class="img-content">
+                      <h3>Mijito</h3>
+                      <a href="./veg.html" class="btn btn-primary" id="mojitoLearnMore">Learn More</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <h1 style="text-align: center; font-size: 35px; margin-bottom: -50px; margin-top: 30px;">Meals Card</h1>
+    <section class="section-meals">
+        <div class="container grid grid--3-cols margin-right-md">
+          <div class="meal">
+            <img
+                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5nOmLvdF1I4wdz6q68gKNTYoXChJ9Nxl-1Q&usqp=CAU"
+                 class="meal-img"
+                 alt="Japanese Gyozas"
+                 />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+              </div>
+              <p class="meal-title">Japanese Gyozas</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon
+                    ><span><strong>650</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon
+                    ><span>NutriScore &reg; <strong>74</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon
+                    ><span><strong>4.9</strong> rating (537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="meal">
+            <img
+                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrFY1oM65V9WTOcwnt149Fe6dQFQsE3cn4PQ&usqp=CAU"
+                 class="meal-img"
+                 alt="Avocado Salad"
+                 />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegan">Vegan</span>
+                <span class="tag tag--paleo">Paleo</span>
+              </div>
+              <p class="meal-title">Avocado Salad</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon
+                    ><span><strong>400</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon
+                    ><span>NutriScore &reg; <strong>92</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon
+                    ><span><strong>4.8</strong> rating (441)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="meal">
+            <img
+                 src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                 class="meal-img"
+                 alt="Japanese Gyozas"
+                 />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegan">Vegan</span>
+              </div>
+              <p class="meal-title">Thai Red Curry</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon
+                    ><span><strong>450</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon
+                    ><span>NutriScore &reg; <strong>86</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon
+                    ><span><strong>4.4</strong> rating (349)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <iframe src="https://en.wikipedia.org/wiki/History_of_Indian_cuisine" frameborder="0" style="width: 100%; height: 100vh; margin-top: 10vh; margin-bottom: 20vh;">
+      </iframe>
+
+      <div class="footer">
+        <div class="container flex">
+          <div class="footer-about">
+            <h2>About</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              aspernatur sit deleniti enim voluptas voluptatum incidunt rerum,
+              exercitationem voluptate nemo quo impedit ad perspiciatis tempore
+              nulla dolore fugit, fuga eos.
+            </p>
+          </div>
+  
+          <div class="footer-category">
+            <h2>Our Menu</h2>
+  
+            <ul>
+              <li>Biryani</li>
+              <li>Chicken</li>
+              <li>Pizza</li>
+              <li>Burger</li>
+              <li>Pasta</li>
+            </ul>
+          </div>
+  
+          <div class="quick-links">
+            <h2>Quick Links</h2>
+  
+            <ul>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Menu</li>
+              <li>Order</li>
+              <li>Services</li>
+            </ul>
+          </div>
+  
+          <div class="get-in-touch">
+            <h2>Get in touch</h2>
+            <ul>
+              <li>Account</li>
+              <li>Support Center</li>
+              <li>Feedback</li>
+              <li>Suggession</li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="copyright">
+          <p>Copyright &copy; 2022. All Rights Reserved.</p>
+        </div>
+      </div>
+      
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule     src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+    <script>
+      document.querySelector("#nonVegLearnMore").addEventListener("click",function(){
+        window.location.href = "nonVeg.html";
+      });
+      document.querySelector("#vegLearnMore").addEventListener("click",function(){
+        window.location.href = "veg.html"
+      });
+      document.querySelector("#mojitoLearnMore").addEventListener("click",function(){
+        window.location.href = "mojito.html"
+      });
+    </script>
+    <script src="./scripts/drink.js"></script>
+    <script src="./scripts/nonveg.js"></script>
+    <script src="./scripts/veg.js"></script>
+</body>
+</html>
